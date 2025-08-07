@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Leadership
+permalink: /leadership/
 ---
 
 <div class="container my-4">

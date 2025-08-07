@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Volunteer
+permalink: /volunteer/
 ---
 
 <div class="container my-4">

@@ -5,15 +5,17 @@
 }
 
 body {
-  font-family: 'Segoe UI', sans-serif;
+  font-family: 'Poppins', sans-serif;
   background-color: #fdfaf6;
   color: #333;
   margin: 0;
   padding: 0;
+  line-height: 1.6;
 }
 
 .navbar {
   background-color: var(--cpp-primary);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
 .navbar-brand,
@@ -25,10 +27,14 @@ body {
   text-decoration: underline;
 }
 
+.navbar-toggler {
+  border-color: var(--cpp-light);
+}
+
 .hero {
-  background-color: var(--cpp-accent);
+  background: linear-gradient(135deg, var(--cpp-primary), var(--cpp-accent));
   color: var(--cpp-light);
-  padding: 2.5rem 1rem;
+  padding: 3rem 1rem;
   text-align: center;
 }
 
@@ -59,4 +65,12 @@ footer {
 .btn-outline-primary:hover {
   background-color: var(--cpp-primary);
   color: var(--cpp-light);
+}
+
+a {
+  color: var(--cpp-accent);
+}
+
+a:hover {
+  color: var(--cpp-primary);
 }

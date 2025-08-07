@@ -1,6 +1,7 @@
 ---
 layout: default
 title: About CPP
+permalink: /about/
 ---
 
 <div class="container my-4">
