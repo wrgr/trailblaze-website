@@ -10,5 +10,6 @@ title: College Prep Program
   </div>
 
 <div class="content">
-  <p>This site is currently being refreshed. Please check back soon for program updates, volunteer opportunities, and more!</p>
+  <p>We’re relaunching the College Prep Program post‑pandemic and remain dedicated to our mentees, alumni, and fellow trailblazers through ongoing initiatives.</p>
+  <p>Big things are coming soon—stay tuned! If you’d like to lend a hand or learn more, contact <a href="mailto:will@trailblaze.org">will@trailblaze.org</a> or <a href="mailto:karla@trailblaze.org">karla@trailblaze.org</a>.</p>
 </div>
