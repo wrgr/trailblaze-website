@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Media
+permalink: /media/
 ---
 
 <div class="container my-4">

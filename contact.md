@@ -15,7 +15,7 @@ We typically respond within 2–3 business days.
 
 ## 🤝 Volunteer Interest
 
-If you're looking to join as a **SAT Coach**, **College Coach**, or **Essay Reviewer**, please see our [Volunteer Page](/volunteer/) for current opportunities and sign-up info.
+If you're looking to join as a **SAT Coach**, **College Coach**, or **Essay Reviewer**, please see our [Volunteer Page]({{ '/volunteer/' | relative_url }}) for current opportunities and sign-up info.
 
 ## 📍 Location
 
