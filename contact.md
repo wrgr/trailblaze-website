@@ -6,16 +6,16 @@ permalink: /contact/
 
 # Contact Us
 
-We’d love to hear from you! Whether you're a student, volunteer, mentor, or community partner — reach out anytime.
+We’d love to hear from you! Whether you're a student, alum, or community partner — reach out anytime.
 
 ## 📬 General Inquiries
 
-**Email:** [info@trailblaze.org](mailto:info@trailblaze.org)  
+**Email:** [will@trailblaze.org](mailto:will@trailblaze.org) or [karla@trailblaze.org](mailto:karla@trailblaze.org)  
 We typically respond within 2–3 business days.
 
-## 🤝 Volunteer Interest
+## 🤝 Lend a Hand
 
-If you're looking to join as a **SAT Coach**, **College Coach**, or **Essay Reviewer**, please see our [Volunteer Page]({{ '/volunteer/' | relative_url }}) for current opportunities and sign-up info.
+Interested in supporting our mentees and fellow trailblazers? Drop us a line at the emails above and we'll connect you.
 
 ## 📍 Location
 
