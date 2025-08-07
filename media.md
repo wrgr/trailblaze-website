@@ -4,66 +4,99 @@ title: Media
 permalink: /media/
 ---
 
-<div class="container my-4">
-  <h1 class="text-primary">Media Gallery</h1>
-  <p>Explore videos from past College Prep Program cohorts and get a glimpse into the energy, growth, and joy that define CPP.</p>
+<h1 class="text-primary">Media Gallery</h1>
+<p>Explore videos from past College Prep Program cohorts.</p>
 
-  <div class="row row-cols-1 row-cols-md-3 g-4 mt-4">
-    <div class="col">
-      <div class="card h-100 border-0 shadow-sm">
-        <div class="card-body">
-          <h5 class="card-title text-primary">🎥 2016 Class Video</h5>
-          <p class="card-text">Highlights from the 2016 cohort.</p>
-          <!-- <a href="LINK_TO_VIDEO" class="btn btn-outline-primary btn-sm">Watch</a> -->
-        </div>
-      </div>
-    </div>
+<div id="media-gallery" class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mt-4"></div>
 
-    <div class="col">
-      <div class="card h-100 border-0 shadow-sm">
-        <div class="card-body">
-          <h5 class="card-title text-primary">🎥 2015 Class Video</h5>
-          <p class="card-text">Student experiences from 2015.</p>
-        </div>
-      </div>
-    </div>
+<script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+<script>
+  const videos = [
+    {
+      title: "CPP2018 Final Movie",
+      url: "http://www.youtube.com/watch?v=56bqGRyY17s",
+      published: "2019-02-05",
+      views: 274,
+      likes: 2
+    },
+    {
+      title: "CPP2017 Final Movie",
+      url: "http://www.youtube.com/watch?v=o89eb4ad_N0",
+      published: "2017-08-14",
+      views: 384,
+      likes: 8
+    },
+    {
+      title: "CPP2016 Final Movie",
+      url: "http://www.youtube.com/watch?v=syT7ih9DmYI",
+      published: "2017-03-05",
+      views: 242,
+      likes: 0
+    },
+    {
+      title: "CPP2014 Movie",
+      url: "http://www.youtube.com/watch?v=nTqBhSket8Y",
+      published: "2014-08-25",
+      views: 305,
+      likes: 1
+    },
+    {
+      title: "CPP2013 Class Movie",
+      url: "http://www.youtube.com/watch?v=Q-FVgrbrot4",
+      published: "2014-02-13",
+      views: 113,
+      likes: 0
+    }
+  ];
 
-    <div class="col">
-      <div class="card h-100 border-0 shadow-sm">
-        <div class="card-body">
-          <h5 class="card-title text-primary">🎥 2014 Class Video</h5>
-          <p class="card-text">Snapshots of the 2014 summer program.</p>
-        </div>
-      </div>
-    </div>
+  function VideoCard({ video }) {
+    const videoId = new URL(video.url).searchParams.get("v");
+    const embedUrl = `https://www.youtube.com/embed/${videoId}`;
+    return React.createElement(
+      "div",
+      { className: "col" },
+      React.createElement(
+        "div",
+        { className: "card h-100 shadow-sm" },
+        React.createElement(
+          "div",
+          { className: "ratio ratio-16x9" },
+          React.createElement("iframe", {
+            src: embedUrl,
+            title: video.title,
+            allowFullScreen: true
+          })
+        ),
+        React.createElement(
+          "div",
+          { className: "card-body" },
+          React.createElement("h5", { className: "card-title" }, video.title),
+          React.createElement(
+            "p",
+            { className: "card-text mb-1 text-muted small" },
+            `Published: ${video.published}`
+          ),
+          React.createElement(
+            "p",
+            { className: "card-text small" },
+            `Views: ${video.views} • Likes: ${video.likes}`
+          )
+        )
+      )
+    );
+  }
 
-    <div class="col">
-      <div class="card h-100 border-0 shadow-sm">
-        <div class="card-body">
-          <h5 class="card-title text-primary">🎥 2013 Class Video</h5>
-          <p class="card-text">Memories from 2013 students and volunteers.</p>
-        </div>
-      </div>
-    </div>
+  function App() {
+    return React.createElement(
+      React.Fragment,
+      null,
+      videos.map((video, index) =>
+        React.createElement(VideoCard, { video, key: index })
+      )
+    );
+  }
 
-    <div class="col">
-      <div class="card h-100 border-0 shadow-sm">
-        <div class="card-body">
-          <h5 class="card-title text-primary">🎥 2012 Class Video</h5>
-          <p class="card-text">Program recap from the 2012 cohort.</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="col">
-      <div class="card h-100 border-0 shadow-sm">
-        <div class="card-body">
-          <h5 class="card-title text-primary">🎥 2011 Class Video</h5>
-          <p class="card-text">The very first College Prep Program video.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <p class="mt-4 text-muted">Note: Video links can be added once uploaded to a streaming platform (e.g., YouTube or Vimeo).</p>
-</div>
+  const root = ReactDOM.createRoot(document.getElementById("media-gallery"));
+  root.render(React.createElement(App));
+</script>
