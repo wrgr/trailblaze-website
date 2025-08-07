@@ -4,7 +4,7 @@ title: College Prep Program
 ---
 
   <div class="hero text-center">
-    <img src="{{ '/assets/images/logo.jpg' | relative_url }}" alt="CPP Logo" class="logo" />
+    <img src="{{ '/assets/images/logo.png' | relative_url }}" alt="CPP Logo" class="logo" />
     <h1>Welcome to the College Prep Program</h1>
     <p class="lead">Empowering students to achieve their dreams through mentorship, coaching, and a supportive community.</p>
   </div>
