@@ -7,6 +7,25 @@ permalink: /about/
 <div class="container my-4">
   <h1 class="text-primary">Our Story</h1>
 
+  <div class="row my-4">
+    <div class="col-md-3 text-center">
+      <img src="{{ '/assets/images/karla.jpg' | relative_url }}" alt="Karla Gray-Roncal" class="img-fluid rounded-circle mb-2" style="max-height: 150px;" />
+      <p class="small"><strong>Karla Gray-Roncal</strong></p>
+    </div>
+    <div class="col-md-3 text-center">
+      <img src="{{ '/assets/images/will.jpg' | relative_url }}" alt="William Gray-Roncal" class="img-fluid rounded-circle mb-2" style="max-height: 150px;" />
+      <p class="small"><strong>William Gray-Roncal</strong></p>
+    </div>
+    <div class="col-md-3 text-center">
+      <img src="{{ '/assets/images/liem.jpg' | relative_url }}" alt="Liem Huynh" class="img-fluid rounded-circle mb-2" style="max-height: 150px;" />
+      <p class="small"><strong>Liem Huynh</strong></p>
+    </div>
+    <div class="col-md-3 text-center">
+      <img src="{{ '/assets/images/maria.jpg' | relative_url }}" alt="Maria Roncal" class="img-fluid rounded-circle mb-2" style="max-height: 150px;" />
+      <p class="small"><strong>Maria Roncal</strong></p>
+    </div>
+  </div>
+
   <p><strong>Will and Karla Gray-Roncal</strong> started volunteering and mentoring students way back when they were in high school (sometime late in the last millennium), and started a tutoring program to help students when they were in college together at Vanderbilt. Over the years, they continued to volunteer and meet students who needed help achieving their dreams.</p>
 
   <p>After moving to Maryland in 2006, they began visiting area high school students and conferences and presenting information about attending college, finding financial aid, and pursuing STEM careers, often in conjunction with the Bridges Program of Howard County and Maryland MESA. They were very excited to bring their information to students and their families, but were frustrated that they weren't able to follow up with students after the workshops.</p>
@@ -14,6 +33,11 @@ permalink: /about/
   <p>In 2009, they approached Maryland MESA and APL about the idea of a partnership to support a new program called <strong>College Prep</strong>. This program would be a comprehensive and intense introduction to overcoming barriers, applying to college, succeeding once enrolled, and finding satisfying careers in STEM. The idea was to offer a free program that facilitated close mentoring and guidance through the process in a supportive environment — mimicking the $8000/student private college prep tutoring experience for students who didn't have the resources and opportunities to navigate the path through college on their own.</p>
 
   <p><strong>MESA and APL said "Yes!"</strong> and the College Prep Program was born. Now in its 6th year, it has reached over 100 students and is poised to continue to grow and support its alumni and current students. CPP partners with the APL STEM office and Maryland MESA to give back and help our community.</p>
+
+  <div class="text-center my-4">
+    <img src="{{ '/assets/images/team.jpg' | relative_url }}" alt="CPP Team group photo" class="img-fluid shadow rounded" />
+    <p class="mt-2 text-muted">CPP volunteers and students gather for a group photo.</p>
+  </div>
 
   <p>More information on our volunteer staff is coming soon. Members of our executive board include Assistant Director and Technology Manager <strong>Liem Huynh</strong> and Volunteer Coordinator <strong>Maria Roncal</strong>.</p>
 
