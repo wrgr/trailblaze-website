@@ -10,7 +10,7 @@ permalink: /leadership/
 
   <div class="row my-5">
     <div class="col-md-4 text-center">
-      <img src="assets/image/karla.jpg" alt="Karla Gray-Roncal" class="img-fluid rounded-circle mb-3" style="max-height: 200px;" />
+      <img src="{{ '/assets/images/karla.jpg' | relative_url }}" alt="Karla Gray-Roncal" class="img-fluid rounded-circle mb-3" style="max-height: 200px;" />
       <h3 class="text-primary">Karla Gray-Roncal</h3>
       <p><em>Program Director</em></p>
       <p>
@@ -18,7 +18,7 @@ permalink: /leadership/
       </p>
     </div>
     <div class="col-md-4 text-center">
-      <img src="assets/image/will.jpg" alt="William Gray-Roncal" class="img-fluid rounded-circle mb-3" style="max-height: 200px;" />
+      <img src="{{ '/assets/images/will.jpg' | relative_url }}" alt="William Gray-Roncal" class="img-fluid rounded-circle mb-3" style="max-height: 200px;" />
       <h3 class="text-primary">William Gray-Roncal</h3>
       <p><em>Program Director</em></p>
       <p>
@@ -26,7 +26,7 @@ permalink: /leadership/
       </p>
     </div>
     <div class="col-md-4 text-center">
-      <img src="assets/image/liem.jpg" alt="Liem Huynh" class="img-fluid rounded-circle mb-3" style="max-height: 200px;" />
+      <img src="{{ '/assets/images/liem.jpg' | relative_url }}" alt="Liem Huynh" class="img-fluid rounded-circle mb-3" style="max-height: 200px;" />
       <h3 class="text-primary">Liem Huynh</h3>
       <p><em>Assistant Director / Technology Coordinator</em></p>
       <p>
@@ -37,7 +37,7 @@ permalink: /leadership/
 
   <div class="row my-5">
     <div class="col-md-4 offset-md-2 text-center">
-      <img src="assets/image/maria.jpg" alt="Maria Roncal" class="img-fluid rounded-circle mb-3" style="max-height: 200px;" />
+      <img src="{{ '/assets/images/maria.jpg' | relative_url }}" alt="Maria Roncal" class="img-fluid rounded-circle mb-3" style="max-height: 200px;" />
       <h3 class="text-primary">Maria Roncal</h3>
       <p><em>Logistics & Mentor Support Lead</em></p>
       <p>
@@ -45,7 +45,7 @@ permalink: /leadership/
       </p>
     </div>
     <div class="col-md-8 text-center mt-5">
-      <img src="assets/image/team.jpg" alt="CPP Team Group Photo" class="img-fluid shadow rounded" />
+      <img src="{{ '/assets/images/team.jpg' | relative_url }}" alt="CPP Team Group Photo" class="img-fluid shadow rounded" />
       <p class="mt-2 text-muted">Team photo from a previous program event</p>
     </div>
   </div>
