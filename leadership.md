@@ -37,7 +37,7 @@ permalink: /leadership/
 
   <div class="row my-5">
     <div class="col-md-4 offset-md-2 text-center">
-      <img src="assets/image/maria.png" alt="Maria Roncal" class="img-fluid rounded-circle mb-3" style="max-height: 200px;" />
+      <img src="assets/image/maria.jpg" alt="Maria Roncal" class="img-fluid rounded-circle mb-3" style="max-height: 200px;" />
       <h3 class="text-primary">Maria Roncal</h3>
       <p><em>Logistics & Mentor Support Lead</em></p>
       <p>
